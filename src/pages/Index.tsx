@@ -6,7 +6,7 @@ import { Contact } from '@/components/Contact';
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <main className="min-h-screen bg-background text-foreground overflow-hidden">
       <Hero />
       <About />
       <Projects />
